@@ -9,16 +9,13 @@
 </head>
 <body>
 
-  <!-- Navigation -->
   <nav class="nav">
     <div class="nav-inner">
       <a href="index.html" class="nav-logo">
         <span class="logo-cn">本草香珠</span>
-        <span class="logo-en">BenCao Beads</span>
+        <span class="logo-en">BENCAO BEADS</span>
       </a>
-      <button class="nav-toggle" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
+      <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
       <div class="nav-links">
         <a href="index.html"><span data-lang="cn">首页</span><span data-lang="en">Home</span></a>
         <a href="products.html"><span data-lang="cn">产品</span><span data-lang="en">Products</span></a>
@@ -29,33 +26,29 @@
     </div>
   </nav>
 
-  <!-- Quiz Section -->
-  <section class="section quiz-section" style="padding-top:120px; min-height:100vh;">
+  <section class="section quiz-section" style="padding-top:140px; min-height:100vh;">
     <div class="container" style="max-width:700px;">
-      <div class="section-header" style="margin-bottom:32px;">
-        <h1><span data-lang="cn">中医体质测试</span><span data-lang="en">TCM Constitution Quiz</span></h1>
-        <p class="section-sub"><span data-lang="cn">回答9个问题，2分钟找到你的体质类型和专属香方</span><span data-lang="en">Answer 9 questions in 2 minutes to discover your constitution type</span></p>
+      <div class="section-header" style="margin-bottom:40px;">
+        <p class="section-sub">CONSTITUTION QUIZ</p>
+        <h1 style="font-family:var(--font-cn);font-weight:200;font-size:clamp(2rem,5vw,3rem);color:var(--cream);letter-spacing:6px;">
+          <span data-lang="cn">中医体质测试</span><span data-lang="en">TCM Constitution Quiz</span>
+        </h1>
+        <div class="section-line"></div>
       </div>
 
-      <!-- Progress Bar -->
       <div class="quiz-progress">
         <div class="quiz-progress-bar" id="quiz-progress-bar"></div>
       </div>
 
-      <!-- Quiz Content (rendered by quiz.js) -->
       <div id="quiz-content"></div>
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <div class="footer-logo">
-            <span class="logo-cn">本草香珠</span>
-            <span class="logo-en">BenCao Beads</span>
-          </div>
+          <div class="footer-logo"><span class="logo-cn">本草香珠</span><span class="logo-en">BENCAO BEADS</span></div>
           <p class="footer-tagline"><span data-lang="cn">以香养身，以珠安心</span><span data-lang="en">Heal with Fragrance, Rest with Beads</span></p>
         </div>
         <div class="footer-links">
@@ -66,15 +59,11 @@
           <a href="about.html"><span data-lang="cn">关于</span><span data-lang="en">About</span></a>
         </div>
         <div class="footer-contact">
-          <h4><span data-lang="cn">联系我们</span><span data-lang="en">Contact Us</span></h4>
-          <button class="btn btn-whatsapp" onclick="openWhatsApp()">
-            <span data-lang="cn">📲 WhatsApp 咨询</span><span data-lang="en">📲 WhatsApp Us</span>
-          </button>
+          <h4><span data-lang="cn">联系</span><span data-lang="en">Contact</span></h4>
+          <button class="btn btn-sm btn-whatsapp" onclick="openWhatsApp()"><span data-lang="cn">WhatsApp 咨询</span><span data-lang="en">WhatsApp Us</span></button>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p>© 2026 本草香珠 BenCao Beads. All rights reserved.</p>
-      </div>
+      <div class="footer-bottom"><p>© 2026 本草香珠 BENCAO BEADS</p></div>
     </div>
   </footer>
 
